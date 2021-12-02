@@ -7,6 +7,7 @@ from tkinter import ttk
 root = Tk()
 root.geometry("495x240+450+260")
 root.title("Translator")
+root.iconbitmap(r'tr.ico')
 
 Translator = translate_mdl.Translator()
 
