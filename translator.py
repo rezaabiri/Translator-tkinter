@@ -27,7 +27,7 @@ persian_to_english.place(x=250, y=180)
 english_to_persian = ttk.Radiobutton(root, text='English to Persian', variable=var, value=2)
 english_to_persian.place(x=130, y=180)
 
-var.set(2)
+var.set(1)
 
 
 def show():
